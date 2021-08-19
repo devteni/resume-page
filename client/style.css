@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) {
+    .resume{
+        margin: 0 20rem;
+        text-align: center;
+    }
+     
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .contact{
+        padding: 10px;
+        border: 1px solid black;
+        margin: 1em 15rem;
+        border-radius: 6px;
+}
+    
+    button{
+        padding: 2px;
+        color: blue;
+        background-color: blanchedalmond;
+    }
+    
+    /* label{
+        float: left;
+    } */
+        
+}
+
+@media (min-width: 320px) {
+    .name{
+        text-align: center ;
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 5px;
+        margin: 5px
+    }
+    
+    li{
+        list-style-type: none;
+    }
+        
+    .about {
+        font-style: italic;
+        padding: 10px
+    }
+    
+    .resume{
+        text-align: center;
+    }
+    
+    .contact{
+            padding: 10px;
+            border: 1px solid black;
+            margin: 1em;
+            border-radius: 6px;
+    }
+       
+} 
