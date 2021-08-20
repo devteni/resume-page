@@ -12,10 +12,15 @@
         <div class="name">
             <h1>Teniola Fatunmbi</h1>
             <small><b><i> &lt; Backend developer / &gt;</i></b></small>
+            <div class="ack">
+                <img src="https://hng.tech/img/brand-logo.png" alt="hng" />
+                <img src="https://ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png" alt="i4g" />
+                <img src="https://zuri.team/img/zuri-logo-full.svg" alt="zuri" />
+            </div>
         </div>
 
         <blockquote>
-            Note: This is a <a href="https://hng.tech">HNG task</a>
+            Note: This is a link their website <a href="https://internship.zuri.team">HNG task</a>
         </blockquote>
 
         <!-- About me -->
@@ -44,21 +49,31 @@
             </div>
         </div>
         
+        <!-- Work -->
+        <div class="work">
+            <h3>Projects</h3>
+            <p>Search for me <a href="searchformoi.netlify.app">Live</a></p>
+            <p>Bookstore app <a href="https://github.com/devteni/bookstore-app">Repo</a></p>
+            <p>Github user</p>
+            <p>Kebisglobal <a href="kebisglobal.netlify.app">Live</a></p>
+            <p>Check movies <a href="checkmovies.netlify.app">Live</a></p>
+        </div>
+
         <!-- Contact me -->
         <div class="contact">
             <h2> Shoot me a text :) </h2>
-            <form action="https://formsubmit.co/2bdecefb770af540c00a99bb90f0b06a" method="POST">
-                <label htmlFor="name">Name:</label>
-                <input type="text" name="name" placeholder="Your name" required/><br /><br />
+            <form name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzkojeg" method="post">
+                  <label for="full-name">Full Name:</label>
+                  <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br /><br />
 
-                <label htmlFor="email">Email:</label>
-                <input type="email" name="email" placeholder="Email" required/><br /><br />
+                  <label for="email-address">Email:</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br /><br />
 
-                <label htmlFor="message">Message</label>
-                <textarea></textarea><br /><br />
-
-                <input type="submit" value="Send itt!" />
-            </form>
+                  <label for="message">Message:</label>
+                  <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea><br /><br />
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <input type="submit" id="submit" value="Submit">
+              </form>
         </div>
         <hr>
         <!-- Education -->

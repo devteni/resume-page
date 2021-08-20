@@ -12,9 +12,9 @@
     
     .contact{
         padding: 10px;
-        border: 1px solid black;
         margin: 1em 15rem;
         border-radius: 6px;
+        background-color: rgb(231, 231, 231);
 }
     
     button{
@@ -33,7 +33,6 @@
     .name{
         text-align: center ;
         padding: 10px;
-        border: 3px solid black;
         border-radius: 5px;
         margin: 5px
     }
@@ -53,9 +52,40 @@
     
     .contact{
             padding: 10px;
-            border: 1px solid black;
             margin: 1em;
             border-radius: 6px;
+            background-color: rgb(231, 231, 231);
     }
        
 } 
+
+.ack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ack > * {
+    width: 70px;
+}
+
+.resume{
+    background: radial-gradient(gray, rgba(56, 10, 10, 0.144));
+}
+
+form > #submit {
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.work > p{
+    padding: 10px;
+    margin: 1rem 5rem;
+    border-radius: 5px;
+    background-color: #E6E6E6;
+}
+
+a{
+    text-decoration: none;
+}
