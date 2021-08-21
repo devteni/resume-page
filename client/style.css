@@ -76,8 +76,8 @@ a{
     text-decoration: none;
 }
 
-.reach-out {
-    margin: 1rem 5rem;
+.reach-out{
+    margin: 3rem;
 }
 
 .reach-out > p {
@@ -149,8 +149,12 @@ hr{
         background-color: #E6E6E6;
     }
         
-#line{
-    background-color: black;
-    width: 1px;
-    height: 15em;
-}}
+    #line{
+        background-color: black;
+        width: 1px;
+        height: 15em;
+    }
+    .reach-out {
+        margin: 2rem 5rem;
+    }
+}
