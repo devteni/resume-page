@@ -1,4 +1,84 @@
-@media only screen and (min-width: 768px) {
+/* Mobile screen */
+.name{
+    text-align: center ;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px
+}
+
+
+.about {
+    font-style: italic;
+    padding: 10px
+}
+
+.contact{
+        padding: 10px;
+        margin: 1em;
+        border-radius: 6px;
+        background-color: rgb(231, 231, 231);
+}
+
+.ack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ack > * {
+    width: 70px;
+}
+
+.resume{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    background: radial-gradient(gray, rgba(56, 10, 10, 0.144));
+}
+
+form > #submit {
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.project-title{
+    font-size: medium;
+    font-family: fantasy;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+
+.project-title:hover{
+    border-bottom-style: dotted;
+}
+
+
+.work > div{
+    width: auto;
+    padding: 10px;
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    background-color: #E6E6E6;
+}
+
+.work >div:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 5px 5px #353030;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Desktop and lower */
+@media only screen and (min-width: 992px) {
     .resume{
         margin: 0 20rem;
         text-align: center;
@@ -22,70 +102,24 @@
         color: blue;
         background-color: blanchedalmond;
     }
-    
-    /* label{
-        float: left;
-    } */
-        
-}
 
-@media (min-width: 320px) {
-    .name{
-        text-align: center ;
+    .work{
+        width: 50vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .work > div{
+        width: 20vw;
         padding: 10px;
+        margin: 1rem 1rem;
         border-radius: 5px;
-        margin: 5px
-    }
-    
-    li{
-        list-style-type: none;
+        background-color: #E6E6E6;
     }
         
-    .about {
-        font-style: italic;
-        padding: 10px
-    }
-    
-    .resume{
-        text-align: center;
-    }
-    
-    .contact{
-            padding: 10px;
-            margin: 1em;
-            border-radius: 6px;
-            background-color: rgb(231, 231, 231);
-    }
-       
-} 
-
-.ack{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.ack > * {
-    width: 70px;
-}
-
-.resume{
-    background: radial-gradient(gray, rgba(56, 10, 10, 0.144));
-}
-
-form > #submit {
-    padding: 10px;
-    font-weight: bold;
-
-}
-
-.work > p{
-    padding: 10px;
-    margin: 1rem 5rem;
-    border-radius: 5px;
-    background-color: #E6E6E6;
-}
-
-a{
-    text-decoration: none;
-}
+#line{
+    background-color: black;
+    width: 1px;
+    height: 15em;
+}}
